@@ -1,7 +1,9 @@
 //Miejsce dodawania i zmiany odcinków        
 var lista = [
-  'https://ebd.cda.pl/620x368/7193824cd',
-  'https://www.youtube.com/embed/C9alPYoF5v4'
+  'https://player.twitch.tv/?channel=mamm0n&parent=reqss.github.io',
+  'https://player.twitch.tv/?channel=mamm0n&parent=reqss.github.io',
+  'https://player.twitch.tv/?channel=mamm0n&parent=reqss.github.io'
+
 ];
 function podmiana(odcinek){
 document.getElementById("animo").src= lista[odcinek];
@@ -17,12 +19,12 @@ function przypinka(){
         document.getElementById("lista").style.display = 'none';
     	}
 	stream = document.getElementById("streamokno").style.display;
-	if (stream == 'none'){
+	/*if (stream == 'none'){
         document.getElementById("streamokno").style.display = 'block'
     	}
     else{
         document.getElementById("streamokno").style.display = 'none';
-    	}
+    	}*/
 }
 
 function screenmax(){
