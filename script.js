@@ -28,8 +28,13 @@ function przypinka(){
 }
 
 function screenmax(){
-    document.getElementById('stream').style.height='100%';
-    document.getElementById('streamokno').style.width='100%';
-
+     var streamwindow = document.getElementById('streamokno');
+    if(streamwindow.style.height!='90%'){
+    streamwindow.style.height='90%';
+    streamwindow.style.width='250px';}
+    else{
+        streamwindow.style.height='100%';
+        streamwindow.style.width='320px';
+    }
     }
 
