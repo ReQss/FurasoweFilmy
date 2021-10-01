@@ -1,8 +1,8 @@
 //Miejsce dodawania i zmiany odcinków        
 var lista = [
-  'https://player.twitch.tv/?channel=mamm0n&parent=reqss.github.io',
-  'https://player.twitch.tv/?channel=mamm0n&parent=reqss.github.io',
-  'https://player.twitch.tv/?channel=mamm0n&parent=reqss.github.io'
+  'https://upstream.to/embed-vxvgzh32m61q.html',
+  'https://upstream.to/embed-0u1b2st8fsfv.html'
+ 
 
 ];
 function podmiana(odcinek){
