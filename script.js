@@ -1,7 +1,8 @@
 //Miejsce dodawania i zmiany odcinków        
 var lista = [
   'https://upstream.to/embed-vxvgzh32m61q.html',
-  'https://upstream.to/embed-0u1b2st8fsfv.html'
+  'https://upstream.to/embed-0u1b2st8fsfv.html',
+  'https://upstream.to/embed-ts1tengz3ztj.html'
  
 
 ];
