@@ -1,41 +1,88 @@
-//Miejsce dodawania i zmiany odcinków        
-var lista = [
-  'https://upstream.to/embed-vxvgzh32m61q.html',
-  'https://upstream.to/embed-0u1b2st8fsfv.html',
-  'https://upstream.to/embed-ts1tengz3ztj.html'
- 
+var lista=["https://player.twitch.tv/?channel=mamm0n&parent=reqss.github.io"
+          ];
+function podmiana(t){document.getElementById("animo").src=lista[t]}function przypinka(){lista_strona=document.getElementById("lista").style.display,"none"==lista_strona?document.getElementById("lista").style.display="block":document.getElementById("lista").style.display="none",stream=document.getElementById("streamokno").style.display}function screenmax(){var t=document.getElementById("streamokno");"90%"!=t.style.height?(t.style.height="90%",t.style.width="250px"):(t.style.height="100%",t.style.width="320px")}
 
-];
-function podmiana(odcinek){
-document.getElementById("animo").src= lista[odcinek];
 
-}
-function przypinka(){
-	lista_strona = document.getElementById("lista").style.display;
-	
-	if (lista_strona == 'none'){
-        document.getElementById("lista").style.display = 'block'
-    	}
-    else{
-        document.getElementById("lista").style.display = 'none';
-    	}
-	stream = document.getElementById("streamokno").style.display;
-	/*if (stream == 'none'){
-        document.getElementById("streamokno").style.display = 'block'
-    	}
-    else{
-        document.getElementById("streamokno").style.display = 'none';
-    	}*/
+
+function change1() {
+    var  change = document.getElementById("info").innerHTML = "Film 1";
 }
 
-function screenmax(){
-     var streamwindow = document.getElementById('streamokno');
-    if(streamwindow.style.height!='90%'){
-    streamwindow.style.height='90%';
-    streamwindow.style.width='250px';}
-    else{
-        streamwindow.style.height='100%';
-        streamwindow.style.width='320px';
-    }
-    }
+function change11() {
+    var  change = document.getElementById("info").innerHTML = "";
+}
+
+function change2() {
+    var  change = document.getElementById("info").innerHTML = "Film 2";
+}
+
+function change22() {
+    var  change = document.getElementById("info").innerHTML = "";
+}
+function change3() {
+    var  change = document.getElementById("info").innerHTML = "Film 3";
+}
+
+function change33() {
+    var  change = document.getElementById("info").innerHTML = "";
+}
+function change4() {
+    var  change = document.getElementById("info").innerHTML = "Film 4";
+}
+
+function change44() {
+    var  change = document.getElementById("info").innerHTML = "";
+}
+function change5() {
+    var  change = document.getElementById("info").innerHTML = "Film 5";
+}
+
+function change55() {
+    var  change = document.getElementById("info").innerHTML = "";
+}
+function change6() {
+    var  change = document.getElementById("info").innerHTML = "Film 6";
+}
+function change66() {
+    var  change = document.getElementById("info").innerHTML = "";
+}
+
+function author() {
+    var  change = document.getElementById("info").innerHTML = "®";
+}
+function author2() {
+    var  change = document.getElementById("info").innerHTML = "";
+}
+function size() {
+    var  change = document.getElementById("info").innerHTML = "Zmniejsz/Powieksz";
+}
+function size2() {
+    var  change = document.getElementById("info").innerHTML = "";
+}
+
+
+function options() {
+    var  change = document.getElementById("info").innerHTML = "Pokaż/Ukryj ";
+}
+function options2() {
+    var  change = document.getElementById("info").innerHTML = "";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
