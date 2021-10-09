@@ -1,3 +1,9 @@
+var lista = [
+    'https://www.youtube.com/embed/k1BneeJTDcU'
+   
+  
+  ];
+
 function podmiana(odcinek){
     document.getElementById("animo").src= lista[odcinek];
     
