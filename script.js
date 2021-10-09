@@ -1,8 +1,29 @@
-var lista=["https://player.twitch.tv/?channel=mamm0n&parent=reqss.github.io"
-          ];
-function podmiana(t){document.getElementById("animo").src=lista[t]}function przypinka(){lista_strona=document.getElementById("lista").style.display,"none"==lista_strona?document.getElementById("lista").style.display="block":document.getElementById("lista").style.display="none",stream=document.getElementById("streamokno").style.display}function screenmax(){var t=document.getElementById("streamokno");"90%"!=t.style.height?(t.style.height="90%",t.style.width="250px"):(t.style.height="100%",t.style.width="320px")}
+function podmiana(odcinek){
+    document.getElementById("animo").src= lista[odcinek];
+    
+    }
+    function przypinka(){
+        lista_strona = document.getElementById("lista").style.display;
+        
+        if (lista_strona == 'none'){
+            document.getElementById("lista").style.display = 'block'
+            }
+        else{
+            document.getElementById("lista").style.display = 'none';
+            }
+        stream = document.getElementById("streamokno").style.display;
+        /*if (stream == 'none'){
+            document.getElementById("streamokno").style.display = 'block'
+            }
+        else{
+            document.getElementById("streamokno").style.display = 'none';
+            }*/
+    }
+function screenmax(){var t=document.getElementById("streamokno");"90%"!=t.style.height?(t.style.height="90%",t.style.width="250px"):(t.style.height="100%",t.style.width="320px")}
 
-
+function ep(){
+    document.getElementById("animo").src= lista[0];
+}
 
 function change1() {
     var  change = document.getElementById("info").innerHTML = "Film 1";
