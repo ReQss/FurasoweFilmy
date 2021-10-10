@@ -35,4 +35,8 @@ text-shadow: 1px 1px 15px red;
  font-size:27px;
 font-family:VPCH2;
 font-weight:bold;
+margin-left:-2px;
+writing-mode: vertical-rl;
+text-orientation: upright;
+	
 }
