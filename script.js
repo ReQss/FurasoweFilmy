@@ -1,5 +1,5 @@
 var lista = [
-    'https://ebd.cda.pl/620x368/673522798'
+    'asterix madge'
    
   
   ];
