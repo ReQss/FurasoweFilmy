@@ -1,5 +1,5 @@
 var lista = [
-    'https://youtu.be/5Pe1-0Uk4oA'
+    'https://ebd.cda.pl/620x368/4618223ac'
    
   
   ];
