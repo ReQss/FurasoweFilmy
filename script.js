@@ -1,5 +1,5 @@
 var lista=[
-           "https://ebd.cda.pl/620x368/86650175a",
+           "https://ebd.cda.pl/620x368/7794159c9",
            ""
           
           ];
